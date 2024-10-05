@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Party</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Add the logo -->
+      <img src="assets/dog-icon.svg" alt="Dog Party Logo" class="logo" />
+      <!-- Add the navigation bar -->
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#how-to-dog">How to Dog</a></li>
+          <li><a href="#what-is-dogs">What is Dogs</a></li>
+          <li><a href="#facts-from-dogs">Facts From Dogs</a></li>
+        </ul>
+      </nav>      
+    </header>
+    <main>
+      <!-- Here is where we add our 3 dogs -->
+      <section class="hero">
+        <div class="hero-inner" >
+          <h1>A Site About <strong>Some Dogs</strong></h1>
+          <!-- Think about changing this to p instead of h1 so that it is not all bolded
+          and add a class for p for the font size -->
+          <img src="assets/dog1-sq.jpg" alt="Dog Image" class="hero-image" />
+          <form>
+           <label for="dog-name">Name</label>
+            <input type="text" id="dog-name" name="dog-name" />
+            <button type="submit">Name This Dog</button>
+          </form>
+        </div>
+      </section>   
+      <section class="info">
+        <div class="dog-info">
+          <h2> How To Dog </h2>
+          <img src="assets/dog2-sq.jpg" alt "Dog 2" />
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Aenean imperdiet massa quis orci sagittis tempor. Mauris sed 
+              purus volutpat enim hendrerit ultrices vel nec elit. Mauris 
+              dui tortor, accumsan ac imperdiet vel, maximus quis nisi. 
+              Praesent quis eros porta, pellentesque ante non, placerat ligula.
+          </p>
+          <button>How</button>
+        </div>
+        <div class="dog-info">
+          <h2> What Is Dogs </h2>
+          <img src="assets/dog3-sq.jpg" alt "Dog 3" />
+          <p> Integer placerat felis velit, sit amet lacinia tellus facilisis 
+              at. Fusce quis tempor urna. Ut tempus mauris nec quam scelerisque 
+              ultrices. Sed consectetur tempor ipsum, in tempus velit tempor nec. 
+              Nam consequat cursus nibh eu faucibus. Mauris a ex lacinia, 
+              tristique turpis vel, aliquet lectus.
+          </p>
+          <button>What</button>
+        </div>
+        <div class="dog-info">
+          <h2> Facts From Dogs </h2>
+          <img src="assets/dog4-sq.jpg" alt "Dog 4" />
+          <p> Aliquam laoreet, augue vitae commodo rutrum, risus mauris 
+              pellentesque nisl, a laoreet nulla dui nec erat. Sed rhoncus 
+              velit eu nisi pellentesque eleifend. Nulla facilisi. Morbi 
+              pellentesque dapibus neque ut faucibus. Etiam accumsan congue 
+              neque, at hendrerit urna mollis et. Sed in massa non dui placerat 
+              viverra elementum sit amet neque.
+          </p>
+          <button>Facts</button>
+        </div>
+      </section>   
+    </main>
+    <footer>
+      <!-- Here is where we add learn about dogs online with twitter, instagram, 
+      facebook, and LinkedIn -->
+      <section class="social-media">
+        <h3>Learn About Dogs Online</h3>
+        <div class="social-images">
+          <img src="assets/twitter.svg" alt "Twitter" />
+          <img src="assets/instagram.svg" alt "Instagram" />
+          <img src="assets/facebook.svg" alt "Facebook" />
+          <img src="assets/linkedin.svg" alt "Linkedin" />
+        </div>
+      </section>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

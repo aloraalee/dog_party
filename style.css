@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-color: black
+}
+
+header {
+  background-color: #75e2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 4px;
+  border-color: #048eaa;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 200px 20px;
+  background-image: url("assets/park.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-top: -20px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-family: 'Avenir Next';   
+}
+
+.hero h1 strong {
+  font-weight: 700;
+}
+
+.hero img {
+  border-radius: 50%;
+  margin: 20px 0;
+  width: 175px;
+  height: 175px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #048eaa;
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 468px;
+}
+
+.hero input[type="text"]{
+  width: 468px;
+  height: 35.5px;
+  border: none;
+}
+
+.hero label {
+  display: block;
+  text-align: left;
+  width: 468px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  align-items: stretch;
+  min-height: 600px;
+}
+
+.dog-info {
+  text-align: center;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dog-info img {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #048eaa;
+}
+
+.dog-info h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 10px 0;
+  text-align: left;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.dog-info button {
+  font-size: 1em;
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 275px;
+}
+
+.button-wrapper {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media {
+  background-color: #048eaa;
+}
+
+.social-media h3 {
+  text-align: center;
+  padding: 50px 300px 5px 300px;
+  color: #ffffff
+}
+
+.social-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 300px 50px 300px;
+}
